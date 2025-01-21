@@ -4,7 +4,7 @@ function Navbar(){
         <div>
             <nav id="navbar">
             <h1 id="title">Urban Apparel</h1>
-            <ul class="navbar-menu">
+            <ul className="navbar-menu">
                 <li><a href="">Home</a></li>
                 <li><a href="#Products">Products</a></li>
                 <li><a href="#cart_section"> Cart</a></li>
