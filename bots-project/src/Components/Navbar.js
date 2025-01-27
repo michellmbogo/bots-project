@@ -1,6 +1,6 @@
 import react from 'react'
 function Navbar () {
-    <div>
+    return(<div>
         <nav id="navbar">
             <h1 id="title">The Bot Compendium</h1>
             <ul className="navbar-menu">
@@ -9,5 +9,5 @@ function Navbar () {
                 <li><a href="#Army">Army</a></li>
             </ul>
         </nav>
-    </div>
+    </div>)
 }export default Navbar;
