@@ -18,15 +18,18 @@ function BotArmy(props) {
                 {
                     props.army.map((bot) => {
                         return (
-                            <div style={{
-                                display: 'flex',
-                                flex: 2,
-                                flexDirection: 'row',
-                                alignItems: 'center',
-                                columnGap: 20,
-                                backgroundColor: 'gainsboro',
-                                margin: 20
-                            }}>
+                            <div
+                                style={{
+                                    display: 'flex',
+                                    flex: 2,
+                                    flexDirection: 'row',
+                                    alignItems: 'center',
+                                    columnGap: 20,
+                                    backgroundColor: 'gainsboro',
+                                    margin: 20
+                                }}
+                                onClick={() => props.releaseBot(bot)}
+                            >
                                 <img src={bot.avatar_url} height={100} width={100} />
                                 <div>
                                     <h3>{bot.name}</h3>
